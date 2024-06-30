@@ -7,7 +7,9 @@ export default function App() {
     <main>
       <button onClick={() => setCount(count + 1) }>ADD</button>
       <span>{count}</span>
+      <span>times</span>
       <button onClick={() => setCount(count - 1) }>Subtract</button>
+      <h2>Now commit</h2>
     </main>
   )
 }
